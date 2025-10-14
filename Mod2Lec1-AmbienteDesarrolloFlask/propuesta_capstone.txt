@@ -1,0 +1,28 @@
+
+Nombre del Proyecto:	Inventario Personal Web
+
+Problema a Resolver:	
+
+Muchas personas tienen dificultades para llevar un control organizado de sus pertenencias, herramientas, 
+productos o equipos personales. No existe una forma centralizada, sencilla y segura para registrar, clasificar 
+y consultar los artículos personales que poseen, especialmente si hay varios usuarios compartiendo el inventario.
+
+Usuarios Principales: 
+
+Usuario: Puede consultar el inventario y ver los artículos disponibles.
+
+Dueño: Puede agregar, editar o eliminar artículos de su inventario personal.
+
+Administrador: Supervisa a todos los usuarios, gestiona permisos y puede realizar mantenimientos generales en el sistema.
+
+
+Herramientas:
+
+
+Back-End: Python (Flask)
+
+Base de Datos: SQLite o MySQL
+
+Front-End: HTML, CSS, Bootstrap, JavaScript
+
+Entorno: Visual Studio Code
