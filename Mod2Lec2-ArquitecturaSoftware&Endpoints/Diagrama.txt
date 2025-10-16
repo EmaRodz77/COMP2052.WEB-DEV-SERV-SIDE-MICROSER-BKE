@@ -1,0 +1,19 @@
+[ Cliente Web / Postman ]
+            |
+            |  (HTTP Requests)
+            v
+     -------------------
+     |  Servidor Flask |
+     |-----------------|
+     | /info           |
+     | /mensaje        |
+     | /login          |
+     | /inventario     |
+     -------------------
+            |
+            |  (SQL Queries)
+            v
+     -------------------
+     | Base de Datos    |
+     | (SQLite/MySQL)   |
+     -------------------
