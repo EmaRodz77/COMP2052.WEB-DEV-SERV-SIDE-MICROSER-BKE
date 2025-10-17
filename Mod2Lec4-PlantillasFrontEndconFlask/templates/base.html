@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Flask Test Application{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <header>
+        <h1>Mi Aplicación con Flask</h1>
+        <nav>
+            <a href="{{ url_for('inicio') }}">Inicio</a> |
+            <a href="{{ url_for('mostrar_productos') }}">Productos</a> |
+            <a href="{{ url_for('mostrar_usuarios') }}">Usuarios</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>Esta pagina es solo una prueba de como utilizare flask con jinja2 - Emanuel Vives 2025</p>
+    </footer>
+</body>
+</html>
